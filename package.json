@@ -4,8 +4,8 @@
   "type": "module",
   "license": "MIT",
   "exports": {
-    "localized": "./dist/localized.mjs",
-    "service": "./dist/rpc.cjs"
+    ".": "./dist/rpc.cjs",
+    "./localized.js": "./dist/localized.mjs",
   },
   "scripts": {
     "build": "rollup -c rollup.config.mjs && rollup -c rollup.config.mjs"
