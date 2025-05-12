@@ -1,0 +1,28 @@
+{
+  "name": "webm3-rpc",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    "localized": "./dist/localized.mjs",
+    "service": "./dist/rpc.cjs"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs && rollup -c rollup.config.mjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "chalk-css-colors": "https://github.com/paulwardrip/chalk-css-colors.git",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-ws": "^5.0.2",
+    "rollup": "^4.39.0",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "ws": "^8.18.1",
+    "bignumber.js": "^9.3.0"
+  }
+}
