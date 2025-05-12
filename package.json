@@ -5,7 +5,7 @@
   "license": "MIT",
   "exports": {
     ".": "./dist/rpc.cjs",
-    "./localized.js": "./dist/localized.mjs",
+    "./localized.js": "./dist/localized.mjs"
   },
   "scripts": {
     "build": "rollup -c rollup.config.mjs && rollup -c rollup.config.mjs"
