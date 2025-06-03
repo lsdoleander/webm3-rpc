@@ -1,0 +1,25 @@
+{
+  "name": "webm3-rpc",
+  "version": "1.0.3",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js",
+    "./localized.mjs": "./dist/localized.mjs"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.39.0",
+    "rollup-plugin-polyfill-node": "^0.13.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "bignumber.js": "^9.3.0"
+  }
+}
